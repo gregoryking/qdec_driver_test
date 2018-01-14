@@ -1,0 +1,4 @@
+### Target: targets/rbnano2_driver_test
+target.app: "apps/driver_test"
+target.bsp: "@mynewt-nordic/hw/bsp/rb-nano2"
+target.build_profile: "debug"
