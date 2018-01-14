@@ -19,41 +19,12 @@
 #
 -->
 
-# Apache Blinky
+# Driver Test for NRF52 Quadrature Decoder
 
-## Overview
+Depends on forked repositopry gregoryking/mynewt_nordic
 
-Apache Blinky is a skeleton for new Apache Mynewt projects.  The user downloads
-this skeleton by issuing the "newt new" command (using Apache Newt).  Apache
-blinky also contains an example app and target for use with Apache Mynewt to
-help you get started.
+Tested on RedBear Nano 2 target.
 
-## Building
+Quadrature encoder used in testing is the one attached to this gearmotor https://www.robotshop.com/uk/6v-2101-75rpm-micro-metal-gearmotor-encoder.html?gclid=EAIaIQobChMIgeXF7L7Y2AIVC7gbCh2hrQD7EAQYBSABEgKTv_D_BwE
 
-Apache Blinky contains an example Apache Mynewt application called blinky.
-When executed on suitably equipped hardware, this application repeatedly blinks
-an LED.  The below procedure describes how to build this application for the
-Apache Mynewt simulator.
 
-1. Download and install Apache Newt.
-
-You will need to download the Apache Newt tool, as documented in the [Getting Started Guide](http://mynewt.apache.org/os/get_started/introduction/).
-
-2. Download the Apache Mynewt Core package (executed from the blinky directory).
-
-```no-highlight
-    $ newt install
-```
-
-3. Build the blinky app for the sim platform using the "my_blinky_sim" target
-(executed from the blinky directory).
-
-```no-highlight
-    $ newt build my_blinky_sim
-```
-
-The Apache Newt tool should indicate the location of the generated blinky
-executable.  Since the simulator does not have an LED to blink, this version of
-blinky is not terribly exciting - a printed message indicating the current LED
-state.  To learn how to build blinky for actual hardware, please see the
-[Getting Started Guide](http://mynewt.apache.org/os/get_started/introduction/).
