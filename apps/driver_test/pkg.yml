@@ -28,6 +28,5 @@ pkg.deps:
     - "@apache-mynewt-core/kernel/os"
     - "@apache-mynewt-core/hw/hal"
     - "@apache-mynewt-core/sys/console/full"
-    - "@apache-mynewt-core/hw/drivers/drv8838"
     - "@apache-mynewt-core/hw/drivers/pwm"
     - "@mynewt-nordic/hw/drivers/qdec"
